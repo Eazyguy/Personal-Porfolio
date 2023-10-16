@@ -1162,7 +1162,7 @@ i {
     line-height: 1.45;
     position: relative;
     color: var(--color1);
-    white-space: wrap
+    white-space:prewrap
   }
 
   blockquote:before {
