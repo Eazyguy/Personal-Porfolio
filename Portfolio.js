@@ -59,51 +59,6 @@ setTimeout(slide, 5000)
 
 // Scroll Animation
 
-/*var scrollAnim = document.querySelectorAll(".anim")
-
-for(let i = 0; i < scrollAnim.length; i++){
-     var windowHeight = window.innerHeight
-
-    var elementTop = scrollAnim[i].getBoundingClientRect().top
-//     
-//     console.log(elementTop)
-//     
-     var elementVisible = 0;
-//     
-    var scrollAnim = document.querySelectorAll(".anim")
-// 
-//    
-   if(elementTop < windowHeight - elementVisible){
-     scrollAnim[i].classList.add("active")
-  } //else {
-//      scrollAnim[i].classList.remove("active")
-//    }
-//    
-// 
-window.addEventListener("Loaded",()=>{
-  if(elementTop < windowHeight - elementVisible){
-     scrollAnim[i].classList.remove("anim")
-     scrollAnim[i].classList.remove("active")
-  } //else {
-//      scrollAnim[i].classList.remove("active")
-//    }
-})
-//
-// 
-// }
-// 
-// 
-window.addEventListener("scroll",()=>{
-//   
-if(elementTop < windowHeight - elementVisible){
-     scrollAnim[i].classList.add("active")
-  } /*else {
-     scrollAnim[i].classList.remove("active")
-  }*/
- /* 
-})
-  }
-console.log(window.innerWidth)*/
 const the_animation = document.querySelectorAll('.anim')
 
 const observer = new IntersectionObserver((entries) => {
