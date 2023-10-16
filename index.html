@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width , initial-scale=1.0">
+<!--<meta name="viewport" content="width=device-width , initial-scale=1.0">-->
 <meta charset="utf-8" />
 <title>Israel Johnson</title>
 <link rel="stylesheet"  href="portfolio.css">
@@ -10,7 +10,9 @@
 <body>
      <!-- Header and Navigation -->
 <header id="header">
-<nav id="nav-bar">
+<button id="open"><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="2.5em" width="2.5em"><path fill="currentColor" d="M7.5 36q-.65 0-1.075-.425Q6 35.15 6 34.5q0-.65.425-1.075Q6.85 33 7.5 33h33q.65 0 1.075.425Q42 33.85 42 34.5q0 .65-.425 1.075Q41.15 36 40.5 36Zm0-10.5q-.65 0-1.075-.425Q6 24.65 6 24q0-.65.425-1.075Q6.85 22.5 7.5 22.5h33q.65 0 1.075.425Q42 23.35 42 24q0 .65-.425 1.075-.425.425-1.075.425Zm0-10.5q-.65 0-1.075-.425Q6 14.15 6 13.5q0-.65.425-1.075Q6.85 12 7.5 12h33q.65 0 1.075.425Q42 12.85 42 13.5q0 .65-.425 1.075Q41.15 15 40.5 15Z"/></svg></button>
+  <nav id="nav-bar">
+  <button id="close"><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="1.8em" width="1.8em"><path fill="currentColor" d="M24 26.1 13.5 36.6q-.45.45-1.05.45-.6 0-1.05-.45-.45-.45-.45-1.05 0-.6.45-1.05L21.9 24 11.4 13.5q-.45-.45-.45-1.05 0-.6.45-1.05.45-.45 1.05-.45.6 0 1.05.45L24 21.9l10.5-10.5q.45-.45 1.05-.45.6 0 1.05.45.45.45.45 1.05 0 .6-.45 1.05L26.1 24l10.5 10.5q.45.45.45 1.05 0 .6-.45 1.05-.45.45-1.05.45-.6 0-1.05-.45Z"/></svg></button>
 <a href="#home" >Home</a>
 <a href="#about" >About</a>
 <a href="#services" >Services</a>
@@ -27,7 +29,7 @@
 <div class="front">Front-end Web developer</div>
 </div>
 <!--About Section -->
-<section id="about">
+<section id="about" class="anim fade-right">
 <div class="aboutwrap">
 <div class="h2back">
 <div class="h2inner">
@@ -53,7 +55,7 @@ clients all over the world.</p>
 </div>
 </div>
 <!--Skills Section -->
-<div class="skillswrap">
+<div class="skillswrap anim fade-bottom">
 <div class="h2con">
 <div class="h2diff">
 <h2>My Skills</h2>
@@ -93,7 +95,7 @@ clients all over the world.</p>
 </div>
 </section>
 <!--Services Section -->
-<section id="services">
+<section id="services" class="anim fade-left">
 <div class="h2other">
 <div class="h2inner">
 <h2>My Services</h2>
@@ -126,7 +128,7 @@ performance of the website </p>
 </div>
 </section>
 <!--Portfolio Section -->
-<section id="Portfolio">
+<section id="Portfolio" class="anim fade-right">
 <div class="Portfolio">
 <div class="h2other">
 <div class="h2inner">
@@ -157,7 +159,7 @@ performance of the website </p>
 </div>
 </section>
 <!--Testimonial Section -->
-<section id="testimonial">
+<section id="testimonial" class="anim fade-bottom">
 <div class="h2testi">
 <div class="h2inner">
 <h2>What Clients Say</h2>
@@ -189,21 +191,35 @@ to work him again if i have the opportunity
 <blockquote>
 At a point i started feeling cause i felt i was doing something bad but he never complained
 after series of revisions ge did for me
- <cite>eazy jones</cite>
-</blockquote
+<cite>Adams</cite>
+</blockquote>
 </div>
 </div>
+<div class="listwrap">
+<div class="testimonial-list">
+<img src="Assets/client4.jpeg" width="100px" height="100px" id="imgtestimonial">
+<blockquote>
+Excellent work keep it up!! 
+<cite>Ada</cite>
+</blockquote>
+</div>
+</div>
+<div id="circles">
+<div class="circle"><div class="fill"></div></div>
+<div class="circle"><div class="fill"></div></div>
+<div class="circle"><div class="fill"></div></div>
+<div class="circle"><div class="fill"></div></div>
 </div>
 </div>
 </section>
 <!--Support Section -->
-<section id="support">
+<section id="support" class="anim fade-right">
 <div class="h2con">
 <div class="h2inner">
 <h2>Contact Me!</h2>
 </div>
 </div>
-<div class="formwrap">
+<div id="formwrap">
 <form id="form" action="https://www.freecodecamp.com/email-submit">
 <label>Fullname:</label> <input type="text" id="name"><br>
 <label>Email:</label> <input type="email" id="email" Placeholder="name@example.com" name="email"><br>
@@ -217,9 +233,11 @@ after series of revisions ge did for me
 <p><b>phone number:</b> +2347045620164</p>
 </section>
 <!--Footer Section -->
+    <button id="top"><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="6em" width="6em"><path fill="currentColor" d="M17.65 28q-1 0-1.375-.925t.325-1.625L23 19q.25-.25.5-.325.25-.075.55-.075.3 0 .55.075.25.075.5.325l6.4 6.45q.7.7.325 1.625Q31.45 28 30.45 28Z"/></svg><br><span>TOP</span></button>
 <footer>
 <p>Designed by Israel Johnson
 </footer>
 </main>
+<script src="Portfolio.js"></script>
 </body>
 </html>
