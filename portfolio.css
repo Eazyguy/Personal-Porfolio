@@ -1190,8 +1190,7 @@ i {
   /*support Section*/
 
   #formwrap {
-    padding: 0 10%;
-    width: 100%;
+    padding: 10px;
   }
 
   textarea {
