@@ -896,7 +896,6 @@ i {
   .front {
     position: relative;
     top: 170px;
-    /*margin-left: -300px;*/
     white-space: nowrap;
     overflow-x: hidden;
     animation-name: front;
@@ -933,7 +932,7 @@ i {
     }
 
     100% {
-      margin-left: 58%;
+      margin-left: 120%;
       transform: scale(0);
     }
   }
