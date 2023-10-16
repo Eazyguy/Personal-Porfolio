@@ -1048,7 +1048,6 @@ i {
     color: var(--color1);
     position: relative;
     top: 100px;
-overflow-x:hidden
   }
 
   @keyframes list1 {
