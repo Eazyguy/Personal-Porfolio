@@ -1227,12 +1227,12 @@ i {
   }
 }
 
-@media screen and (max-width:800px){
+/*@media screen and (max-width:800px){
 #formwrap {
   padding: 10px 10% 20px 10%;
 }
 
-}
+}*/
 
 @media(prefers-reduced-motion:no-preference) {
   * {
